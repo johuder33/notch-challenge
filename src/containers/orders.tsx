@@ -33,14 +33,16 @@ const columns = [
   }
 ];
 
-const isNumber = (value: any) => !isNaN(Number(value));
+const isNumber = (value: any) => !isNaN(parseInt(value));
 const ORDERS_LIMIT = 20;
 
 const Orders = ({ page, fetchOrders, loading, orders, total }: any) => {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     let currentPage = urlParams.get('page');
+    console.log('currentPage', currentPage);
     currentPage = isNumber(currentPage) ? Number(currentPage) : page;
+    console.log('currentPage', currentPage);
     fetchOrders(currentPage, ORDERS_LIMIT);
   }, []);
 
