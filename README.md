@@ -13,11 +13,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Filters
 
-If you want to add more filters, so you just need to add them into the following file `src/state/reducers/orders/index.ts` you need to looking for `initialState` constant and add a new entry for `available_filters` attribute.
+If you want to add more filters, so you just need to add them into the following file [`src/state/reducers/orders/index.ts`](https://github.com/johuder33/notch-challenge/blob/master/src/state/reducers/orders/index.ts#L11) you need to looking for `initialState` constant and add a new entry for `available_filters` attribute.
 
 ## Notes
 
-Because of lacking of time I skipped some good and mandatory features like.
+Because of lacking of time I skipped some good and mandatory features like:
 
 * [ ] Unit test
 * [ ] Storybook
