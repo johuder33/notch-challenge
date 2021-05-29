@@ -1,5 +1,7 @@
 # Notch code challenge
 
+![Notch Demo Image](https://github.com/johuder33/notch-challenge/blob/master/images/demo.png)
+
 To getting started to should clone this repository and then execute the following commands
 
 `yarn`
